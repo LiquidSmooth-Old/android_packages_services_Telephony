@@ -95,6 +95,13 @@
         android:persistent="false"
         android:defaultValue="true" />
 
+    <CheckBoxPreference
+      android:key="button_call_end_sound"
+      android:title="@string/call_end_sound_title"
+      android:summary="@string/call_end_sound_summary"
+      android:persistent="false"
+      android:defaultValue="true" />
+
     <ListPreference
         android:key="dialkey_padding"
         android:title="@string/dialkey_padding_title"
